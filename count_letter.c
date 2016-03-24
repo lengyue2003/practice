@@ -1,3 +1,4 @@
+/*  this program can count the number of word */
 #include<stdio.h>
 #include<string.h>
 #include<stdlib.h>

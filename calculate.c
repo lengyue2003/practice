@@ -1,3 +1,4 @@
+/*	this is a simple calculator.*/
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
@@ -9,7 +10,7 @@ int main()
 	char buffer[LINEMAX];
 	char*buffer_p=NULL;
 	char endstr[]="quit\n";
-s	char operation;
+	char operation;
 	char translate[LINEMAX];
 	double result=0.0;
 	double choice=0.0;

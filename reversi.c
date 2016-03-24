@@ -1,3 +1,4 @@
+/* this is reversi */
 #include<stdio.h>
 #include<string.h>
 #define LINEMAXA 1024
@@ -19,7 +20,7 @@ int main()
 	const char comp_c='*';
 	const char player_c='o';
 	int player=1;
-	memset(chessboard,32,LENGTH*LENGTH);
+	memset(chessboard,36,LENGTH*LENGTH);
 	chessboard[2][2]=player_c;
 	chessboard[2][3]=comp_c;
 	chessboard[3][2]=comp_c;
